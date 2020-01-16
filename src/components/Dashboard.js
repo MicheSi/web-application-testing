@@ -27,8 +27,10 @@ const Dashboard = () => {
 
     const foul = () => {
         if (strikes < 2) {
+            alert('Foul ball!')
             setStrikes(strikes +1);
         } else {
+            alert('Foul ball!')
             setStrikes(strikes);
         }
     }
