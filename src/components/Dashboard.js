@@ -41,11 +41,12 @@ const Dashboard = () => {
 
     return (
         <div className='dashboard'>
+            <h1>Batter Stats</h1>
             <Display balls={balls} strikes={strikes} />
-            <button onClick={ball}>Ball</button>
-            <button onClick={strike}>Strike</button>
-            <button onClick={foul}>Foul</button>
-            <button onClick={hit}>Hit</button>
+            <button data-testid='ballBtn' onClick={ball}>Ball</button>
+            <button data-testid='strikeBtn' onClick={strike}>Strike</button>
+            <button data-testid='foulBtn' onClick={foul}>Foul</button>
+            <button data-testid='hitBtn' onClick={hit}>Hit</button>
         </div>
     )
 }
