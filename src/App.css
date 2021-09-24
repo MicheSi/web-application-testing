@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+html, body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html {
+  background-image: url('./baseball.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.App {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+.dashboard h1 {
+  font-size: 6rem;
+  margin-top: 3%;
+  color: white;
+  text-shadow: 2px 2px slategray;
+}
+
+.display p {
+  font-size: 4.2rem;
+  color: white;
+  text-shadow: 2px 2px slategray;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin: 2%;
+  border: 2px dashed firebrick;
+  border-radius: 50%;
+  font-family: 'Staatliches', cursive;
+  font-size: 2.2rem;
+  color: firebrick;
+}
